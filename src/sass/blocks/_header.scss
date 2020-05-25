@@ -18,15 +18,16 @@
     &__nav {
         display: block;
         margin: 0 auto;
+        width: 1000px;
     }
     &__list {
         list-style-type: none;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     &__link {
-        margin:0 85px;
+        /* margin:0 85px; */
         color: #ffffff;
         font-size: 15px;
         font-weight: 400;
@@ -34,6 +35,12 @@
         &:hover {
             color: $main-color;
         }
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     &__phone {
         color: #ffffff;
