@@ -1,4 +1,6 @@
 .header {
+    position: fixed;
+    z-index: 2;
     max-width: 1920px;
     height: 70px;
     display: flex;
@@ -44,7 +46,7 @@
     }
     &__phone {
         color: #ffffff;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 900;
         line-height: 15px;
     }
