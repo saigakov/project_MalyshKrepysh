@@ -95,6 +95,9 @@
             height: 40px;
             line-height: 39px;
         }
+        &__navigate {
+            display: block;
+        }
         &__list {
             position: fixed;
             flex-direction: column;
@@ -184,8 +187,19 @@
 }
 @media (max-width: 575px) {
     .header {
+        &__contact {
+            &_320px {
+                display: flex;
+                margin-right: 0;
+            }
+        }
         &__phone, .button {
             display: none;
+            &_320px {
+                display: block;
+                margin-top: 20px;
+                font-size: 14px;
+            }
         }
     }
     .promo {

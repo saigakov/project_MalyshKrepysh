@@ -20,6 +20,7 @@
         }
     }
     &__navigate {
+        display: contents;
         width: 1000px;
     }
     &__list {
@@ -44,6 +45,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        &_320px {
+            display: none;
+        }
     }
     &__phone {
         color: #ffffff;
