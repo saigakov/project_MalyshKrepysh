@@ -6,9 +6,13 @@
     margin: 0 auto;
 }
 
-@import 'base/_bootstrap-reboot.min';
-@import 'base/fonts';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/animate';
+
+
 @import 'base/variables';
+
 
 
 @import 'blocks/buttons';
