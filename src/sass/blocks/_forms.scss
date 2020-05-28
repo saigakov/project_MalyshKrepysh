@@ -3,16 +3,17 @@
     flex-direction: column;
     margin-top: 100px;
     margin-left: 65px;
+    max-width: 350px;
     input {
-        max-width: 390px;
-        height: 54px;
+        height: 50px;
         background-color: #fffdfd;
         border-radius: 20px;
         border: none;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
         padding: 0 20px;
         color: #000000;
         font-size: 20px;
         font-weight: 100;
+        box-shadow: 3px -3px 10px #fff;
     }
 }
