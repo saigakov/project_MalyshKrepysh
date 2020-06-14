@@ -1,0 +1,59 @@
+.catalog {
+    padding: 90px 80px 0 80px;
+    &__tabs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    &__tab {
+        width: 150px;
+        text-align: center;
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__item {
+        padding: 20px 0;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        background: url(../img/chairs/chair_covered_polished.jpg) center (center/cover) no-repeat;
+        width: 300px;
+        height: 450px;
+        border-bottom-left-radius: 50px;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        span {
+            text-transform: uppercase;
+        }
+    }
+    &__detailed {
+        color: #ff0000;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 256px;
+        text-align: center;
+    }
+    &__item-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+    }
+    &__price {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}

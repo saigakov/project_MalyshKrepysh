@@ -49,6 +49,14 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    /* $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('.header').fadeOut();
+        } else {
+            $('.header').fadeIn();
+        }
+    }); */
     
 });
 
@@ -77,7 +85,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
 
     document.onwheel = (event) => {
-        /* console.log(event); */
         if (event.deltaY > 0 ) {
             header.classList.add('header_active');
             header.classList.add('fade');
