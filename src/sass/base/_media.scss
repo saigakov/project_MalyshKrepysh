@@ -178,6 +178,14 @@
             }
         }
     }
+    .catalog {
+        &__tab {
+            font-size: 14px;
+            &_active {
+                font-size: 14px;
+            }
+        }
+    }
     .button {
         &_big {
             width: 300px;
@@ -234,6 +242,15 @@
         align-items: center;
         input {
             min-width: 280px;
+        }
+    }
+    .catalog {
+        padding: 90px 0 0 0;
+        &__tab {
+            font-size: 11px;
+            &_active {
+                font-size: 11px;
+            }
         }
     }
 }
