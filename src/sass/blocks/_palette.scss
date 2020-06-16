@@ -1,0 +1,25 @@
+.palette {
+    padding-top: 70px;
+    &__wrapper {
+        padding: 0 125px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrap {
+        margin: 40px 35px 0 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+        img {
+            width: 100%;
+        }
+    }
+}

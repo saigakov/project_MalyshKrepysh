@@ -195,6 +195,12 @@
     }
     .title {
         font-size: 24px;
+        &_color {
+            font-size: 15px;
+        }
+    }
+    .important {
+        font-size: 13px;
     }
     
 }
