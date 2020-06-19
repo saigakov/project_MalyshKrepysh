@@ -1,0 +1,57 @@
+.footer {
+    padding: 15px 0;
+    margin-top: 150px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    &__wrapper {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 60px;
+        max-width: 350px;
+        a {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 42px;
+        }
+    }
+    &__instagramm {
+        display: flex;
+        align-items: center;
+        max-width: 60px;
+        height: 61px;
+        margin:0 30px;
+        img {
+            width: 100%;
+        }
+    }
+    &__odnoklassniki {
+        display: flex;
+        align-items: center;
+        max-width: 60px;
+        height: 60px;
+        margin: 30px;
+        img {
+            width: 100%;
+        }
+    }
+}

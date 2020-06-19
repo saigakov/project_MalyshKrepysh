@@ -7,13 +7,26 @@
     input {
         height: 50px;
         background-color: #fffdfd;
-        border-radius: 20px;
+        border-radius: 5px;
         border: none;
         margin-bottom: 35px;
         padding: 0 20px;
         color: #000000;
         font-size: 20px;
         font-weight: 100;
-        box-shadow: 3px -3px 10px #fff;
+    }
+    &_mini {
+        margin-top: 0;
+        margin-left: 0;
+        input {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+    }
+    &__color {
+        margin-bottom: 10px;
+    }
+    &__lacquer {
+        margin-bottom: 10px;
     }
 }
