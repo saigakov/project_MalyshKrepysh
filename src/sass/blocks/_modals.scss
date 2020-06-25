@@ -31,7 +31,8 @@
         font-weight: 700;
         text-align: center;
     }
-    &__descr {
+    &__descr, &__color, &__lacquer, &__case, &__description {
+        min-width: 280px;
         color: #0d0d0d;
         font-size: 14px;
         font-weight: 500;
